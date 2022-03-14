@@ -1,0 +1,147 @@
+/* Left */
+
+section {
+    .main_left {
+        .title_left {
+            background-color: rgb(61, 166, 226);
+            color: white;
+            text-transform: uppercase;
+            p {
+                padding: 15px 10px;
+                margin-bottom: 0;
+                span {
+                    padding-right: 15px;
+                }
+            }
+        }
+        .category {
+            background-color: #f2f1f1;
+            ul {
+                list-style: none;
+                padding: 0;
+                li {
+                    border-bottom: 1px solid white;
+                    a {
+                        padding: 10px;
+                        display: block;
+                        color: black;
+                        text-decoration: none;
+                        //hover thẻ a
+                        &:hover {
+                            background-color: #464A51;
+                            color: white;
+                        }
+                    }
+                    // hover Li
+                    // &:hover {
+                    //     background-color: #464A51;
+                    //     color: white;
+                    // }
+                }
+            }
+        }
+        .item_best_sel {
+            background-color: #f2f1f1;
+            ul {
+                list-style: none;
+                padding: 0;
+                li {
+                    border-bottom: 1px solid white;
+                    a {
+                        padding: 10px;
+                        display: block;
+                        color: black;
+                        text-decoration: none;
+                        //hover thẻ a
+                        // &:hover {
+                        //     background-color: #464A51;
+                        //     color: white;
+                        // }
+                        h3 {
+                            font-size: 12px;
+                            text-transform: uppercase;
+                            text-align: center;
+                            margin: 10px 0px 0px 0px;
+                            font-weight: bold;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/* Right info */
+
+section {
+    .my_info {
+        h1 {
+            text-transform: uppercase;
+            text-align: center;
+            color: $bgColor;
+            font-weight: bold;
+        }
+        p {
+            text-align: justify;
+        }
+    }
+}
+
+
+/* Right products */
+
+section {
+    .home_products {
+        .title {
+            background-image: url('../imgs/xemtatca.png');
+            background-size: cover;
+            height: 45px;
+            .name {
+                color: white;
+                h3 {
+                    margin: 0;
+                    padding: 12px;
+                    text-transform: uppercase;
+                    font-size: 17px;
+                    margin: 0;
+                    font-weight: bold;
+                }
+            }
+            .more {
+                a {
+                    color: white;
+                    padding: 15px;
+                    &:hover {
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+        .product {
+            padding: 10px 0;
+            .item {
+                background-color: black;
+                margin: 10px 0;
+                a {
+                    img {
+                        width: 100%;
+                    }
+                    h4 {
+                        margin: 0;
+                        text-align: center;
+                        font-size: 15px;
+                        padding: 12px;
+                        color: white;
+                    }
+                    &:hover {
+                        text-decoration: none;
+                    }
+                }
+                &:hover {
+                    background-color: $bgColor;
+                }
+            }
+        }
+    }
+}

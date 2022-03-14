@@ -1,0 +1,34 @@
+header {
+    .top_H {
+        background-color: $bgColor;
+        p {
+            color: white;
+            font-size: 13px;
+            padding-top: 10px;
+            text-transform: uppercase;
+        }
+    }
+    .bottom_H {
+        background-image: url(../imgs/bg2.png), url(../imgs/bg1.png);
+        background-position: right, left;
+        background-repeat: no-repeat, repeat;
+        // background-size: cover;
+        // background-color: $bgColor;
+        color: white;
+        h2 {
+            text-transform: uppercase;
+            font-size: 30px;
+            text-shadow: 2px 2px 3px black;
+            font-weight: bold;
+        }
+        .content_H {
+            margin: 10px 0;
+            p {
+                margin: 0;
+                a {
+                    color: rgb(7, 55, 126);
+                }
+            }
+        }
+    }
+}

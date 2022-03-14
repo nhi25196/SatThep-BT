@@ -1,0 +1,81 @@
+.menu_Bar {
+    .menu-mb {
+        display: none;
+    }
+    border-radius: 0;
+    background-color: black;
+    margin-bottom: 5px;
+    .collapse {
+        padding: 0;
+    }
+    ul {
+        padding: 0;
+        li {
+            a {
+                padding: 15px;
+            }
+            .dropdown-menu {
+                background-color: #383838;
+                li {
+                    a {
+                        color: white;
+                        &:hover {
+                            background-color: rgb(88, 86, 86);
+                        }
+                    }
+                }
+            }
+        }
+        .dropdown {
+            a {
+                span {
+                    i {
+                        padding: 0 10px;
+                        font-size: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+    text-transform: uppercase;
+}
+
+.navbar-inverse .navbar-nav>li>a:focus,
+.navbar-inverse .navbar-nav>li>a:hover {
+    // color: gray;
+    // background-color: transparent;
+    background-color: rgb(51, 50, 50);
+}
+
+//--------Thanh search
+.form_Right {
+    position: relative;
+    button {
+        position: absolute;
+        top: 0;
+        right: 15px;
+        border: 0;
+        background-color: transparent;
+    }
+    .btn:hover,
+    .btn:focus,
+    .btn:active {
+        outline: none;
+        box-shadow: none;
+        background-color: transparent;
+        border-color: transparent;
+    }
+    input {
+        padding-right: 20px;
+    }
+}
+
+// .btn:focus,
+// .btn:active:focus {
+//     outline: none;
+//     box-shadow: none;
+// }
